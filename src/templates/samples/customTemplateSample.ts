@@ -12,9 +12,9 @@ export const cocTemplateCertificate: CocTemplateCertificate = {
   issuers: [
     {
       name: "My name",
-      documentStore: "0xBBb55Bd1D709955241CAaCb327A765e2b6D69c8b",
+      documentStore: "0x50a5d169A1bD154d0f98E78B65FA91788A7aBc66",
       identityProof: {
-        location: "few-green-cat.sandbox.openattestation.com",
+        location: "contemporary-magenta-platypus.sandbox.openattestation.com",
         type: v2.IdentityProofType.DNSTxt,
       },
     },
