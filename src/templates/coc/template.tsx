@@ -19,10 +19,11 @@ export const CocTemplate: FunctionComponent<TemplateProps<CocTemplateCertificate
   return (
     <div css={containerStyle} className={className} id="custom-template">
       <h1>{document.name}</h1>
-      <div>awarded to</div>
+      <div>This certifies that</div>
       <h2>{document.recipient.name}</h2>
+      <div>has successfully completed</div>
       <h2>{document.recipient.courseName}</h2>
-      <h2>{document.recipient.courseDates}</h2>
+      <h2> Held on {document.recipient.courseDates}</h2>
     </div>
   );
 };
