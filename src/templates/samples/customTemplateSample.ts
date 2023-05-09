@@ -4,11 +4,13 @@ export interface CocTemplateCertificate extends v2.OpenAttestationDocument {
   name: string;
   recipient: {
     name: string;
+    courseName: string;
+    courseDates: string;
   };
 }
 
 export const cocTemplateCertificate: CocTemplateCertificate = {
-  name: "OpenAttestation Tutorial Certificate of Completion",
+  name: "Certificate of Accomplishment",
   issuers: [
     {
       name: "My name",
@@ -21,6 +23,8 @@ export const cocTemplateCertificate: CocTemplateCertificate = {
   ],
   recipient: {
     name: "John Doe",
+    courseName: "Python Fundementals",
+    courseDates: "1 January 2023"
   },
   $template: {
     name: "COC",
