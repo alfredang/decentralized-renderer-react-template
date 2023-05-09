@@ -13,7 +13,7 @@ export const cocTemplateCertificate: CocTemplateCertificate = {
   name: "Certificate of Accomplishment",
   issuers: [
     {
-      name: "My name",
+      name: "Tertiary Courses",
       documentStore: "0x50a5d169A1bD154d0f98E78B65FA91788A7aBc66",
       identityProof: {
         location: "contemporary-magenta-platypus.sandbox.openattestation.com",
