@@ -1,21 +1,17 @@
 import ReactDOM from "react-dom";
-import { customTemplateCertificate } from "../src/templates/samples";
+import { cocTemplateCertificate } from "../src/templates/samples";
 import React from "react";
 import { App } from "./app";
 
 ReactDOM.render(
   <App
     documents={[
-      { name: "Default document", document: customTemplateCertificate },
+      { name: "Default document", document: cocTemplateCertificate },
       {
         name: "Red document",
         document: {
-          ...customTemplateCertificate,
-          foo: "bar",
-          $template: {
-            ...customTemplateCertificate.$template,
-            name: "red"
-          }
+          ...cocTemplateCertificate,
+          foo: "bar"
         }
       }
     ]}
