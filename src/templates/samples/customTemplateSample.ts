@@ -25,6 +25,6 @@ export const cocTemplateCertificate: CocTemplateCertificate = {
   $template: {
     name: "COC",
     type: v2.TemplateType.EmbeddedRenderer,
-    url: "http://localhost:3000",
+    url: "https://vermillion-blancmange-5cc1e6.netlify.app/",
   },
 };
