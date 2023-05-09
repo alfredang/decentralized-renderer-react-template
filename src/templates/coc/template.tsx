@@ -10,8 +10,8 @@ export const CocTemplate: FunctionComponent<TemplateProps<CocTemplateCertificate
   return (
     <div
       style={{
-        width: "800px",
-        height: "600px",
+        width: "1040px",
+        height: "720px",
         backgroundImage: `url(${BackgroundImage})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
