@@ -64,7 +64,8 @@ export const CocTemplate: FunctionComponent<TemplateProps<CocTemplateCertificate
           width: "100%",
           fontSize: "34px",
           fontWeight: "bold",
-          fontFamily: "Quattrocento"
+          fontFamily: "Quattrocento",
+          color: "midnightblue"
         }}
       >
         {document.recipient.courseName}
