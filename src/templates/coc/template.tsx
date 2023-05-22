@@ -82,6 +82,7 @@ export const CocTemplate: FunctionComponent<TemplateProps<CocTemplateCertificate
       >
         Held on {document.recipient.courseDates}
       </div>
+      <div></div>
     </div>
   );
 };
