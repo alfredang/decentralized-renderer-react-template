@@ -2,7 +2,6 @@ import { v2 } from "@govtechsg/open-attestation";
 
 export interface CocTemplateCertificate extends v2.OpenAttestationDocument {
   recipient: {
-    id: string;
     name: string;
     courseName: string;
     courseDates: string;
@@ -26,7 +25,6 @@ export const cocTemplateCertificate: CocTemplateCertificate = {
     },
   ],
   recipient: {
-    id: "abc123",
     name: "John Doe",
     courseName: "Tertiary Course",
     courseDates: "1 January 2023",
