@@ -20,7 +20,7 @@ export const cocTemplateCertificate: CocTemplateCertificate = {
       documentStore: "0xec874D604AD734989cCFca2f951A05Afac68a866",
       identityProof: {
         type: v2.IdentityProofType.DNSTxt,
-        location: "environmental-white-pig.sandbox.openattestation.com",
+        location: "biological-gold-canidae.sandbox.openattestation.com",
       },
     },
   ],
