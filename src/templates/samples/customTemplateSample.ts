@@ -14,9 +14,9 @@ export const cocTemplateCertificate: CocTemplateCertificate = {
   issuers: [
     {
       name: "Tertiary Courses",
-      documentStore: "0xec874D604AD734989cCFca2f951A05Afac68a866",
+      documentStore: "0xcB34F2Aaa01200e95d674D2D373A7F548F0A5CA0",
       identityProof: {
-        location: "biological-gold-canidae.sandbox.openattestation.com",
+        location: "italian-bronze-wolf.sandbox.openattestation.com",
         type: v2.IdentityProofType.DNSTxt,
       },
     },
