@@ -10,19 +10,14 @@ export interface CocTemplateCertificate extends v2.OpenAttestationDocument {
 }
 
 export const cocTemplateCertificate: CocTemplateCertificate = {
-  name: "Certificate of Accomplishment",
-  $template: {
-    name: "Certificate of Accomplishment",
-    type: v2.TemplateType.EmbeddedRenderer,
-    url: "https://vermillion-blancmange-5cc1e6.netlify.app/",
-  },
+  name: "Tertiary Courses Certificate of Accomplishment",
   issuers: [
     {
       name: "Tertiary Courses",
       documentStore: "0xec874D604AD734989cCFca2f951A05Afac68a866",
       identityProof: {
-        type: v2.IdentityProofType.DNSTxt,
         location: "biological-gold-canidae.sandbox.openattestation.com",
+        type: v2.IdentityProofType.DNSTxt,
       },
     },
   ],
@@ -30,5 +25,10 @@ export const cocTemplateCertificate: CocTemplateCertificate = {
     name: "John Doe",
     courseName: "Tertiary Course",
     courseDates: "1 January 2023",
+  },
+  $template: {
+    name: "COA",
+    type: v2.TemplateType.EmbeddedRenderer,
+    url: "https://vermillion-blancmange-5cc1e6.netlify.app",
   },
 };
