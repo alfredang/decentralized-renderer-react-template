@@ -9,7 +9,6 @@ export interface CocTemplateCertificate extends v2.OpenAttestationDocument {
 }
 
 export const cocTemplateCertificate: CocTemplateCertificate = {
-  id: "test",
   $template: {
     name: "Certificate of Accomplishment",
     type: v2.TemplateType.EmbeddedRenderer,
