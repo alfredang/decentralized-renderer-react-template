@@ -12,9 +12,9 @@ export const cocTemplateCertificate: CocTemplateCertificate = {
   issuers: [
     {
       name: "Tertiary Courses",
-      documentStore: "0xcB34F2Aaa01200e95d674D2D373A7F548F0A5CA0",
+      documentStore: "0x8E41ef23b56515a75b83D4F9f0Ef860d0cefC0f7",
       identityProof: {
-        location: "military-fuchsia-loon.sandbox.openattestation.com",
+        location: "rough-olive-koi.sandbox.openattestation.com",
         type: v2.IdentityProofType.DNSTxt,
       },
     },
