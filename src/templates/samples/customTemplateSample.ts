@@ -16,7 +16,7 @@ export const cocTemplateCertificate: CocTemplateCertificate = {
       name: "Tertiary Courses",
       documentStore: "0xcB34F2Aaa01200e95d674D2D373A7F548F0A5CA0",
       identityProof: {
-        location: "italian-bronze-wolf.sandbox.openattestation.com",
+        location: "military-fuchsia-loon.sandbox.openattestation.com",
         type: v2.IdentityProofType.DNSTxt,
       },
     },
