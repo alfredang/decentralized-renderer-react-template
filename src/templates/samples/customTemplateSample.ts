@@ -1,6 +1,6 @@
 import { v2 } from "@govtechsg/open-attestation";
 
-export interface CocTemplateCertificate extends v2.OpenAttestationDocument {
+export interface CoaTemplateCertificate extends v2.OpenAttestationDocument {
   recipient: {
     name: string;
     courseName: string;
@@ -8,7 +8,7 @@ export interface CocTemplateCertificate extends v2.OpenAttestationDocument {
   };
 }
 
-export const cocTemplateCertificate: CocTemplateCertificate = {
+export const coaTemplateCertificate: CoaTemplateCertificate = {
   issuers: [
     {
       name: "Tertiary Courses",

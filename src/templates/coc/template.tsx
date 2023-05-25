@@ -1,9 +1,9 @@
 import React, { FunctionComponent } from "react";
 import { TemplateProps } from "@govtechsg/decentralized-renderer-react-components";
-import { CocTemplateCertificate } from "../samples/customTemplateSample";
+import { CoaTemplateCertificate } from "../samples/customTemplateSample";
 import BackgroundImage from "../static/CertificateBlank.jpg";
 
-export const CocTemplate: FunctionComponent<TemplateProps<CocTemplateCertificate> & { className?: string }> = ({
+export const CoaTemplate: FunctionComponent<TemplateProps<CoaTemplateCertificate> & { className?: string }> = ({
   document,
   className = ""
 }) => {
