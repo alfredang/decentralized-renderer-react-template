@@ -4,8 +4,7 @@ import { CoaTemplateCertificate } from "../samples/customTemplateSample";
 import BackgroundImage from "../static/CertificateBlank.jpg";
 
 export const CoaTemplate: FunctionComponent<TemplateProps<CoaTemplateCertificate> & { className?: string }> = ({
-  document,
-  className = ""
+  document
 }) => {
   return (
     <div
