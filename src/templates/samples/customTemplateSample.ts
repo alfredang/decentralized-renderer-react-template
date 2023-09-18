@@ -12,9 +12,9 @@ export const coaTemplateCertificate: CoaTemplateCertificate = {
   issuers: [
     {
       name: "Tertiary Courses",
-      documentStore: "0x2DE0C47E2Fa6dbe8ff9929e746682aDaa366955D",
+      documentStore: "0xA08053CB4980E4C9B187e09F9661538C68a8B52e",
       identityProof: {
-        location: "sensitive-copper-primate.sandbox.openattestation.com",
+        location: "greasy-white-mosquito.sandbox.openattestation.com",
         type: v2.IdentityProofType.DNSTxt,
       },
     },
