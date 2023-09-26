@@ -1,16 +1,16 @@
 import ReactDOM from "react-dom";
-import { cocTemplateCertificate } from "../src/templates/samples";
+import { coaTemplateCertificate } from "../src/templates/samples";
 import React from "react";
 import { App } from "./app";
 
 ReactDOM.render(
   <App
     documents={[
-      { name: "Default document", document: cocTemplateCertificate },
+      { name: "Default document", document: coaTemplateCertificate },
       {
         name: "Red document",
         document: {
-          ...cocTemplateCertificate,
+          ...coaTemplateCertificate,
           foo: "bar"
         }
       }

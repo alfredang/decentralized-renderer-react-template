@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from "react";
 import { TemplateProps } from "@govtechsg/decentralized-renderer-react-components";
 import { CoaTemplateCertificate } from "../samples/customTemplateSample";
-import BackgroundImage from "../static/CertificateBlank.jpg";
+import BackgroundImage from "../static/CertificateTemplate_International.png";
 
 export const CoaTemplate: FunctionComponent<TemplateProps<CoaTemplateCertificate> & { className?: string }> = ({
   document
@@ -22,23 +22,11 @@ export const CoaTemplate: FunctionComponent<TemplateProps<CoaTemplateCertificate
       <div
         style={{
           position: "absolute",
-          top: "43%",
-          left: 0,
-          width: "100%",
-          fontSize: "24px",
-          fontFamily: "Quintessential"
-        }}
-      >
-        This certifies that
-      </div>
-      <div
-        style={{
-          position: "absolute",
           top: "50%",
           left: 0,
           width: "100%",
-          fontSize: "24px",
-          fontFamily: "Quattrocento"
+          fontSize: "50px",
+          fontFamily: "Vollkorn"
         }}
       >
         {document.recipient.name}
@@ -46,24 +34,12 @@ export const CoaTemplate: FunctionComponent<TemplateProps<CoaTemplateCertificate
       <div
         style={{
           position: "absolute",
-          top: "55%",
-          left: 0,
-          width: "100%",
-          fontSize: "24px",
-          fontFamily: "Quintessential"
-        }}
-      >
-        has successfully completed the
-      </div>
-      <div
-        style={{
-          position: "absolute",
-          top: "62%",
+          top: "66%",
           left: 0,
           width: "100%",
           fontSize: "34px",
           fontWeight: "bold",
-          fontFamily: "Quattrocento",
+          fontFamily: "Vollkorn",
           color: "midnightblue"
         }}
       >
@@ -72,11 +48,11 @@ export const CoaTemplate: FunctionComponent<TemplateProps<CoaTemplateCertificate
       <div
         style={{
           position: "absolute",
-          top: "71%",
+          top: "73%",
           left: 0,
           width: "100%",
           fontSize: "22px",
-          fontFamily: "Quattrocento"
+          fontFamily: "Montserrat"
         }}
       >
         Held on {document.recipient.courseDates}
