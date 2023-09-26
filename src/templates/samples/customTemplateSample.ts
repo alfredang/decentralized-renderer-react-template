@@ -1,3 +1,4 @@
+
 import { v2 } from "@govtechsg/open-attestation";
 
 export interface CoaTemplateCertificate extends v2.OpenAttestationDocument {
