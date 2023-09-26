@@ -52,6 +52,7 @@ export const CoaTemplate: FunctionComponent<TemplateProps<CoaTemplateCertificate
           left: 0,
           width: "100%",
           fontSize: "22px",
+          fontWeight: "bold",
           fontFamily: "Montserrat"
         }}
       >
