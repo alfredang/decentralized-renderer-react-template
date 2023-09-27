@@ -22,7 +22,7 @@ export const CoaTemplate: FunctionComponent<TemplateProps<CoaTemplateCertificate
       <div
         style={{
           position: "absolute",
-          top: "50%",
+          top: "49%",
           left: 0,
           width: "100%",
           fontSize: "50px",
@@ -34,7 +34,7 @@ export const CoaTemplate: FunctionComponent<TemplateProps<CoaTemplateCertificate
       <div
         style={{
           position: "absolute",
-          top: "66%",
+          top: "65%",
           left: 0,
           width: "100%",
           fontSize: "34px",
