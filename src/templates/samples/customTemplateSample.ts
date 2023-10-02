@@ -30,4 +30,8 @@ export const coaTemplateCertificate: CoaTemplateCertificate = {
     type: v2.TemplateType.EmbeddedRenderer,
     url: "https://vermillion-blancmange-5cc1e6.netlify.app",
   },
+  network: {
+    chain: "878d60f8-481b-4b0c-8489-a036f7c9e838:string:MATIC",
+    chainId: "6a122dcb-e9d2-4d6c-a86c-8cbc04502067:string:80001"
+  }
 };
