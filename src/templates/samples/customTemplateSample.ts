@@ -15,7 +15,7 @@ export const coaTemplateCertificate: CoaTemplateCertificate = {
       name: "Tertiary Courses",
       documentStore: "0xEF4b497D2243E6D502678955C47E04878Bd6696E",
       identityProof: {
-        location: "diverse-lavender-anglerfish.sandbox.openattestation.com",
+        location: "happy-tan-ferret.sandbox.openattestation.com",
         type: v2.IdentityProofType.DNSTxt,
       },
     },
