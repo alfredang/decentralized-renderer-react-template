@@ -15,7 +15,7 @@ export const coaTemplateCertificate: CoaTemplateCertificate = {
       name: "Tertiary Courses",
       documentStore: "0xEF4b497D2243E6D502678955C47E04878Bd6696E",
       identityProof: {
-        location: "happy-tan-ferret.sandbox.openattestation.com",
+        location: "tertiaryinfotech.com",
         type: v2.IdentityProofType.DNSTxt,
       },
     },
@@ -28,10 +28,10 @@ export const coaTemplateCertificate: CoaTemplateCertificate = {
   $template: {
     name: "COA",
     type: v2.TemplateType.EmbeddedRenderer,
-    url: "https://vermillion-blancmange-5cc1e6.netlify.app",
+    url: "https://vermillion-trifle-8d9072.netlify.app/",
   },
   network: {
     chain: "MATIC",
-    chainId: "80001"
+    chainId: "137"
   }
 };
